@@ -1,6 +1,6 @@
 <?php
 include 'includes/crypto_data.php';
-$pageTitle = "CryptoTrade - Home";
+$pageTitle = "Crynance - Home";
 include 'includes/header.php';
 ?>
 
@@ -78,7 +78,7 @@ include 'includes/header.php';
 
     <section class="features">
         <div class="container">
-            <h2>Why Choose CryptoTrade</h2>
+            <h2>Why Choose crynance </h2>
             <div class="feature-grid">
                 <div class="feature-card">
                     <div class="feature-icon">
