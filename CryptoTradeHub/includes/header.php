@@ -16,7 +16,7 @@ $currentUser = get_logged_in_user();
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?php echo isset($pageTitle) ? $pageTitle : 'CryptoTrade'; ?></title>
+    <title><?php echo isset($pageTitle) ? $pageTitle : 'Crynance'; ?></title>
     
     <!-- CSS Files -->
     <link rel="stylesheet" href="css/style.css">
@@ -41,8 +41,8 @@ $currentUser = get_logged_in_user();
             <nav class="navbar">
                 <div class="logo">
                     <a href="index.php">
-                        <img src="assets/logo.svg" alt="CryptoTrade Logo">
-                        <h1>CryptoTrade</h1>
+                        <img src="assets/logo.svg" alt="Crynance Logo">
+                        <h1>Crynance</h1>
                     </a>
                 </div>
                 
