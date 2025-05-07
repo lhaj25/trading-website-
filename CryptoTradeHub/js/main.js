@@ -257,36 +257,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 // Create a cryptocurrency ticker for the header
-class CryptoTicker {
-    constructor(selector) {
-        this.container = document.querySelector(selector);
-        this.tickerData = [];
-        this.animationFrame = null;
-        this.scrollPosition = 0;
-        this.scrollSpeed = 0.5;
-        
-        if (this.container) {
-            this.init();
-        }
-    }
-    
-    async init() {
-        // In a real application, you would fetch real-time data from an API
-        // For this demo, we'll use mock data
-        this.tickerData = [
-            { symbol: 'BTC', price: 37582.21, change: 2.4 },
-            { symbol: 'ETH', price: 2023.65, change: 1.2 },
-            { symbol: 'BNB', price: 301.45, change: -0.8 },
-            { symbol: 'SOL', price: 58.32, change: 5.6 },
-            { symbol: 'ADA', price: 0.39, change: 0.3 },
-            { symbol: 'XRP', price: 0.62, change: -1.2 },
-            { symbol: 'DOGE', price: 0.075, change: 2.1 },
-            { symbol: 'DOT', price: 5.82, change: -0.5 }
-        ];
-        
-        this.render();
-        this.startScrolling();
-    }
+
     
     render() {
         // Create ticker element
