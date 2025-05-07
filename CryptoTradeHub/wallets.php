@@ -11,7 +11,7 @@ $wallets = get_user_wallets();
 $action = isset($_GET['action']) ? $_GET['action'] : '';
 $currency = isset($_GET['currency']) ? $_GET['currency'] : '';
 
-$pageTitle = "CryptoTrade - My Wallets";
+$pageTitle = "crynance - My Wallets";
 include 'includes/header.php';
 ?>
 
@@ -399,7 +399,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         <div class="bank-details">
                             <div class="detail-row">
                                 <div class="detail-label">Account Name:</div>
-                                <div class="detail-value">CryptoTrade Inc.</div>
+                                <div class="detail-value">crynance Inc.</div>
                             </div>
                             <div class="detail-row">
                                 <div class="detail-label">Account Number:</div>
@@ -415,7 +415,7 @@ document.addEventListener('DOMContentLoaded', function() {
                             </div>
                             <div class="detail-row">
                                 <div class="detail-label">Reference:</div>
-                                <div class="detail-value">Your CryptoTrade ID</div>
+                                <div class="detail-value">Your crynance ID</div>
                             </div>
                         </div>
                         <p class="mt-3">Your account will be credited once we receive your payment. This usually takes 1-3 business days.</p>
