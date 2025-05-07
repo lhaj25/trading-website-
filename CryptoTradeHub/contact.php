@@ -1,5 +1,5 @@
 <?php
-$pageTitle = "CryptoTrade - Contact Us";
+$pageTitle = "Crynance - Contact Us";
 
 // Initialize variables
 $name = $email = $subject = $message = "";
@@ -93,8 +93,8 @@ include 'includes/header.php';
                             </div>
                             <div class="method-details">
                                 <h3>Email Us</h3>
-                                <p>support@cryptotrade.com</p>
-                                <p>For general inquiries: info@cryptotrade.com</p>
+                                <p>support@crynance.com</p>
+                                <p>For general inquiries: info@crynance.com</p>
                             </div>
                         </div>
                         
