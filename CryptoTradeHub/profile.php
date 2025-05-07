@@ -6,7 +6,7 @@ require_login();
 // Get user information
 $user = get_logged_in_user();
 
-$pageTitle = "CryptoTrade - My Profile";
+$pageTitle = "Crynance - My Profile";
 include 'includes/header.php';
 ?>
 
