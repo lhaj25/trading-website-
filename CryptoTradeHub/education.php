@@ -1,5 +1,5 @@
 <?php
-$pageTitle = "CryptoTrade - Education";
+$pageTitle = "Crynance - Education";
 include 'includes/header.php';
 ?>
 
