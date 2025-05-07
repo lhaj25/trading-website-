@@ -1,5 +1,5 @@
 <?php
-$pageTitle = "CryptoTrade - FAQ";
+$pageTitle = "Crynance - FAQ";
 include 'includes/header.php';
 ?>
 
