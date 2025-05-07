@@ -1,0 +1,345 @@
+/* 
+  CryptoTrade - Responsive Styles
+  Contains all media queries and responsive adjustments
+*/
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+  html {
+    font-size: 14px;
+  }
+  
+  h1 {
+    font-size: 2rem;
+  }
+  
+  h2 {
+    font-size: 1.75rem;
+  }
+  
+  h3 {
+    font-size: 1.5rem;
+  }
+  
+  .hero {
+    padding: 3rem 0;
+  }
+  
+  .hero h1 {
+    font-size: 2rem;
+  }
+  
+  .hero p {
+    font-size: 1.1rem;
+  }
+  
+  .stat-card {
+    flex: 1 0 100%;
+    margin-right: 0;
+  }
+  
+  .hero .btn {
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+  
+  .feature-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .footer-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .footer-bottom {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .footer-nav {
+    margin-top: 1rem;
+    justify-content: center;
+  }
+  
+  .footer-nav a {
+    margin: 0 0.75rem;
+  }
+  
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .story-container {
+    grid-template-columns: 1fr;
+  }
+  
+  .values-grid,
+  .team-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .about-stats .stat-card {
+    padding: 1.5rem;
+  }
+  
+  .about-stats .stat-value {
+    font-size: 2rem;
+  }
+  
+  .trading-layout {
+    grid-template-columns: 1fr;
+  }
+  
+  .market-sidebar {
+    height: auto;
+    position: static;
+  }
+  
+  .market-stats-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .split-content {
+    grid-template-columns: 1fr;
+  }
+  
+  .strategy-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .resources-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .blockchain-diagram {
+    flex-direction: column;
+  }
+  
+  .arrow {
+    transform: rotate(90deg);
+    padding: 1rem 0;
+  }
+  
+  .block {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  
+  .security-feature {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .feature-icon {
+    margin: 0 auto 1rem;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 577px) and (max-width: 768px) {
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+  
+  .stat-card {
+    flex: 1 0 calc(50% - 1rem);
+  }
+  
+  .footer-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .story-container {
+    grid-template-columns: 1fr;
+  }
+  
+  .values-grid,
+  .team-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .trading-layout {
+    grid-template-columns: 1fr;
+  }
+  
+  .market-sidebar {
+    height: auto;
+    position: static;
+  }
+  
+  .market-stats-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .security-feature {
+    align-items: flex-start;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 769px) and (max-width: 992px) {
+  .footer-grid {
+    grid-template-columns: 2fr 1fr 1fr;
+  }
+  
+  .footer-column:last-child {
+    grid-column: span 3;
+    margin-top: 2rem;
+  }
+  
+  .newsletter-form {
+    max-width: 400px;
+  }
+  
+  .values-grid,
+  .team-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .trading-layout {
+    grid-template-columns: 200px 1fr;
+  }
+  
+  .trading-panel {
+    grid-column: span 2;
+    margin-top: 1.5rem;
+  }
+}
+
+/* Header Navigation Responsiveness */
+@media (max-width: 768px) {
+  .navbar {
+    padding: 1rem 0;
+    flex-wrap: wrap;
+  }
+  
+  .nav-toggle {
+    display: block;
+  }
+  
+  .nav-menu {
+    display: none;
+    width: 100%;
+    flex-direction: column;
+    margin-top: 1rem;
+  }
+  
+  .nav-menu.active {
+    display: flex;
+  }
+  
+  .nav-item {
+    margin: 0;
+    padding: 0.75rem 0;
+    border-bottom: 1px solid var(--gray-200);
+  }
+  
+  .nav-item:last-child {
+    border-bottom: none;
+  }
+  
+  .user-actions {
+    display: none;
+    width: 100%;
+    margin-top: 1rem;
+  }
+  
+  .user-actions.active {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .user-actions .btn {
+    margin: 0 0.5rem;
+  }
+}
+
+/* Trading Page Responsiveness */
+@media (max-width: 1200px) {
+  .trading-layout {
+    grid-template-columns: 1fr;
+  }
+  
+  .market-sidebar {
+    display: none;
+  }
+  
+  .trading-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .chart-controls {
+    margin-top: 1rem;
+    width: 100%;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+  .trading-layout {
+    grid-template-columns: 220px 1fr 300px;
+  }
+}
+
+/* Education Page Responsiveness */
+@media (max-width: 768px) {
+  .nav-container {
+    justify-content: flex-start;
+  }
+  
+  .nav-item {
+    flex: 0 0 auto;
+  }
+}
+
+/* About Page Responsiveness */
+@media (max-width: 992px) {
+  .timeline::before {
+    left: 18px;
+  }
+  
+  .timeline-item {
+    padding-left: 50px;
+  }
+  
+  .timeline-year {
+    width: 36px;
+    height: 36px;
+    font-size: 0.875rem;
+  }
+}
+
+/* FAQ Page Responsiveness */
+@media (max-width: 768px) {
+  .category-tabs {
+    overflow-x: auto;
+    white-space: nowrap;
+    flex-wrap: nowrap;
+    padding-bottom: 1rem;
+  }
+  
+  .category-tab {
+    flex: 0 0 auto;
+  }
+  
+  .faq-question h3 {
+    font-size: 1.1rem;
+  }
+}
+
+/* Contact Page Responsiveness */
+@media (max-width: 992px) {
+  .contact-method {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .method-icon {
+    margin: 0 auto 1rem;
+  }
+}
