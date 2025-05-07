@@ -1,6 +1,6 @@
 <?php
 include 'includes/crypto_data.php';
-$pageTitle = "CryptoTrade - Trading Platform";
+$pageTitle = "Crynance - Trading Platform";
 
 // Get the selected cryptocurrency from URL parameter
 $selectedSymbol = isset($_GET['symbol']) ? $_GET['symbol'] : 'BTC';
