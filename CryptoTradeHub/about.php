@@ -1,5 +1,5 @@
 <?php
-$pageTitle = "CryptoTrade - About Us";
+$pageTitle = "crynance- About Us";
 include 'includes/header.php';
 ?>
 
@@ -7,7 +7,7 @@ include 'includes/header.php';
     <section class="about-hero">
         <div class="container">
             <div class="hero-content">
-                <h1>About CryptoTrade</h1>
+                <h1>About crynance</h1>
                 <p>Your trusted partner in cryptocurrency trading</p>
             </div>
         </div>
@@ -18,7 +18,7 @@ include 'includes/header.php';
             <div class="mission-content">
                 <h2>Our Mission</h2>
                 <p class="mission-statement">To create a secure, accessible, and user-friendly platform that empowers individuals to participate in the cryptocurrency revolution.</p>
-                <p class="mission-description">At CryptoTrade, we believe that cryptocurrencies and blockchain technology are transforming the global financial landscape. Our mission is to provide the tools, resources, and knowledge that enable everyone to participate in this digital financial revolution, regardless of their experience level.</p>
+                <p class="mission-description">At crynance, we believe that cryptocurrencies and blockchain technology are transforming the global financial landscape. Our mission is to provide the tools, resources, and knowledge that enable everyone to participate in this digital financial revolution, regardless of their experience level.</p>
             </div>
         </div>
     </section>
@@ -28,7 +28,7 @@ include 'includes/header.php';
             <div class="story-container">
                 <div class="story-content">
                     <h2>Our Story</h2>
-                    <p>CryptoTrade was founded in 2018 by a team of blockchain enthusiasts and financial technology experts who recognized the need for a more accessible cryptocurrency trading platform.</p>
+                    <p>Crynance was founded in 2018 by a team of blockchain enthusiasts and financial technology experts who recognized the need for a more accessible cryptocurrency trading platform.</p>
                     <p>Our founders had personally experienced the challenges of navigating complex exchanges and the steep learning curve that often prevented newcomers from entering the cryptocurrency market. They set out to create a solution that would simplify the trading process while providing comprehensive educational resources.</p>
                     <p>Since our launch, we've helped thousands of users from over 100 countries to buy, sell, and learn about cryptocurrencies. We've continuously evolved our platform based on user feedback and technological advancements, always staying true to our core mission of accessibility and education.</p>
                 </div>
@@ -37,7 +37,7 @@ include 'includes/header.php';
                         <div class="timeline-year">2018</div>
                         <div class="timeline-content">
                             <h3>Foundation</h3>
-                            <p>CryptoTrade was founded with a mission to make cryptocurrency trading accessible to everyone.</p>
+                            <p>crynance was founded with a mission to make cryptocurrency trading accessible to everyone.</p>
                         </div>
                     </div>
                     <div class="timeline-item">
@@ -148,7 +148,7 @@ include 'includes/header.php';
                     <div class="member-info">
                         <h3>Alex Morgan</h3>
                         <p class="member-title">Chief Executive Officer</p>
-                        <p class="member-bio">Alex is a veteran in the fintech industry with over 15 years of experience. Before founding CryptoTrade, he worked at major financial institutions where he led digital transformation initiatives.</p>
+                        <p class="member-bio">Alex is a veteran in the fintech industry with over 15 years of experience. Before founding crynance, he worked at major financial institutions where he led digital transformation initiatives.</p>
                     </div>
                 </div>
                 
@@ -159,9 +159,9 @@ include 'includes/header.php';
                         </div>
                     </div>
                     <div class="member-info">
-                        <h3>Sarah Chen</h3>
+                        <h3>eya</h3>
                         <p class="member-title">Chief Technology Officer</p>
-                        <p class="member-bio">Sarah is a blockchain expert and software engineer with a background in cryptography. She leads our technology team in developing secure and scalable trading infrastructure.</p>
+                        <p class="member-bio">EYA is a blockchain expert and software engineer with a background in cryptography. She leads our technology team in developing secure and scalable trading infrastructure.</p>
                     </div>
                 </div>
                 
@@ -172,9 +172,9 @@ include 'includes/header.php';
                         </div>
                     </div>
                     <div class="member-info">
-                        <h3>Michael Rodriguez</h3>
+                        <h3>youssef</h3>
                         <p class="member-title">Chief Operating Officer</p>
-                        <p class="member-bio">Michael brings extensive operational experience from his previous roles at major cryptocurrency exchanges. He oversees day-to-day operations and strategic partnerships.</p>
+                        <p class="member-bio">youssef brings extensive operational experience from his previous roles at major cryptocurrency exchanges. He oversees day-to-day operations and strategic partnerships.</p>
                     </div>
                 </div>
                 
@@ -185,9 +185,9 @@ include 'includes/header.php';
                         </div>
                     </div>
                     <div class="member-info">
-                        <h3>Emily Johnson</h3>
+                        <h3>ella</h3>
                         <p class="member-title">Chief Financial Officer</p>
-                        <p class="member-bio">Emily is a financial expert with a background in traditional finance and cryptocurrency markets. She manages our financial strategy and ensures regulatory compliance.</p>
+                        <p class="member-bio">Ella is a financial expert with a background in traditional finance and cryptocurrency markets. She manages our financial strategy and ensures regulatory compliance.</p>
                     </div>
                 </div>
             </div>
