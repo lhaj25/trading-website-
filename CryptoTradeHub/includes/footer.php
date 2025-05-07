@@ -2,7 +2,7 @@
         <div class="container">
             <div class="footer-grid">
                 <div class="footer-column footer-about">
-                    <h3>CryptoTrade</h3>
+                    <h3>Crynance</h3>
                     <p>Your trusted partner in cryptocurrency trading. We provide a secure and user-friendly platform for buying, selling, and learning about cryptocurrencies.</p>
                     <div class="social-icons">
                         <a href="#" class="social-icon" aria-label="Twitter">
@@ -59,7 +59,7 @@
             
             <div class="footer-bottom">
                 <div class="copyright">
-                    &copy; <?php echo date('Y'); ?> CryptoTrade. All rights reserved.
+                    &copy; <?php echo date('Y'); ?> Crynance. All rights reserved.
                 </div>
                 
                 <div class="footer-nav">
