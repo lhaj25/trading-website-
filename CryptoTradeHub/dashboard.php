@@ -7,7 +7,7 @@ require_login();
 $user = get_logged_in_user();
 $wallets = get_user_wallets();
 
-$pageTitle = "CryptoTrade - Dashboard";
+$pageTitle = "Crynance - Dashboard";
 include 'includes/header.php';
 ?>
 
